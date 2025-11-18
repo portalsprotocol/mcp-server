@@ -1,6 +1,6 @@
 {
   "name": "@portalsprotocol/mcp-server",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "MCP server for Portals Protocol - gives AI agents access to on-chain tools",
   "type": "module",
   "main": "./dist/index.js",
@@ -37,7 +37,7 @@
     "@modelcontextprotocol/sdk": "^1.0.0",
     "@solana/web3.js": "^1.95.8",
     "@solana/spl-token": "^0.4.9",
-    "@portalsprotocol/client": "^0.1.0",
+    "@portalsprotocol/client": "^1.0.0",
     "axios": "^1.7.9",
     "ajv": "^8.12.0"
   },

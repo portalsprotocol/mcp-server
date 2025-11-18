@@ -13,7 +13,7 @@ const manager = new PortalsManager();
 const server = new Server(
   {
     name: '@portalsprotocol/mcp-server',
-    version: '0.1.0',
+    version: '1.0.0',
   },
   {
     capabilities: {

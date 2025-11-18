@@ -9,7 +9,7 @@ import * as os from 'os';
 const PORTALS_DIR = path.join(os.homedir(), '.portals');
 const WALLET_PATH = path.join(PORTALS_DIR, 'wallet.json');
 
-const NETWORK = (process.env.PORTALS_NETWORK || 'devnet') as NetworkCluster;
+const NETWORK = (process.env.PORTALS_NETWORK || 'mainnet-beta') as NetworkCluster;
 
 interface PortalMetadata {
   id: string;
