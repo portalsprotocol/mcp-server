@@ -1,6 +1,6 @@
 {
   "name": "@portalsprotocol/mcp-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for Portals Protocol - gives AI agents access to on-chain tools",
   "type": "module",
   "main": "./dist/index.js",
@@ -19,7 +19,13 @@
     "dev": "tsc --watch",
     "start": "node dist/index.js"
   },
-  "keywords": ["mcp", "portals", "x402", "ai-agents", "solana"],
+  "keywords": [
+    "mcp",
+    "portals",
+    "x402",
+    "ai-agents",
+    "solana"
+  ],
   "author": "Portals Protocol",
   "license": "MIT",
   "engines": {
@@ -46,4 +52,3 @@
     "typescript": "^5.6.0"
   }
 }
-
