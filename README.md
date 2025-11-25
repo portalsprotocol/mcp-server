@@ -4,7 +4,7 @@
 
 Connect your AI agent (Claude, Cursor, etc.) to community-built APIs on Solana. Agents discover Portals on-chain, pay in USDC per use, and access tools autonomously—no API keys, no subscriptions, no human intervention.
 
-**Live on devnet** • [Browse Portals](https://portalsprotocol.com/browse) • [Docs](https://portalsprotocol.com/docs)
+**Live on Mainnet** • [Browse Portals](https://portalsprotocol.com/browse) • [Docs](https://portalsprotocol.com/docs)
 
 ## Quick Start
 
@@ -17,7 +17,6 @@ Add to your MCP config (Claude Desktop, Cursor, etc.):
       "command": "npx",
       "args": ["-y", "@portalsprotocol/mcp-server"],
       "env": {
-        "PORTALS_NETWORK": "devnet",
         "PORTALS_WHITELIST": "PORTAL_ID_1,PORTAL_ID_2"
       }
     }
@@ -59,9 +58,9 @@ Find Portal IDs: https://portalsprotocol.com/browse
 
 ### Optional
 
-**`PORTALS_NETWORK`** - Chain to use (default: `devnet`)
+**`PORTALS_NETWORK`** - Chain to use (default: `mainnet-beta`)
 ```json
-"PORTALS_NETWORK": "devnet"
+"PORTALS_NETWORK": "mainnet-beta"
 ```
 
 **`PORTALS_RPC`** - Custom RPC endpoint (default: public Solana RPC)
@@ -88,7 +87,6 @@ Wallet saved to: /Users/you/.portals/wallet.json
 
 ⚠️  WARNING: No SOL for gas fees!
 Send SOL to: 7xK9...Abc
-Get devnet SOL: https://faucet.solana.com
 
 ⚠️  WARNING: No USDC for payments!
 Send USDC to: 7xK9...Abc
